@@ -60,6 +60,10 @@ public class AcercaDeFragment extends Fragment {
                             try {
                                 Thread.sleep(1300);
                             } catch (InterruptedException e) {}
+                        else if(numeroRandom == 2)
+                            try {
+                                Thread.sleep(5500);
+                            } catch (InterruptedException e) {}
 
                         while(!currentThread().isInterrupted() && posicionActualSV < 4950) {
                             sv.scrollTo(posicionActualSV, ++posicionActualSV);
