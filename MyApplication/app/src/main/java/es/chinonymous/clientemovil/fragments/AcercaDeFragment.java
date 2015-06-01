@@ -56,7 +56,12 @@ public class AcercaDeFragment extends Fragment {
                 Thread t = new Thread() {
                     @Override
                     public void run() {
-                        while(!currentThread().isInterrupted() && posicionActualSV < 4650) {
+                        if(numeroRandom == 1)
+                            try {
+                                Thread.sleep(1300);
+                            } catch (InterruptedException e) {}
+
+                        while(!currentThread().isInterrupted() && posicionActualSV < 4950) {
                             sv.scrollTo(posicionActualSV, ++posicionActualSV);
                             try {
                                 Thread.sleep(15);
@@ -77,7 +82,11 @@ public class AcercaDeFragment extends Fragment {
         Thread t2 = new Thread() {
             @Override
             public void run() {
-                while(!currentThread().isInterrupted()&& posicionActualSV < 4650) {
+                try {
+                    Thread.sleep(1300);
+                } catch (InterruptedException e) {}
+
+                while(!currentThread().isInterrupted()&& posicionActualSV < 4950) {
                     getActivity().runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
@@ -86,9 +95,7 @@ public class AcercaDeFragment extends Fragment {
                     });
                     try {
                         Thread.sleep(75);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
+                    } catch (InterruptedException e) {}
                 }
             }
         };
@@ -115,7 +122,7 @@ public class AcercaDeFragment extends Fragment {
     @Override
     public void onDetach() {
         super.onDetach();
-        posicionActualSV = 4650;
+        posicionActualSV = 4950;
         Reproductor.getInstance().stopMusic();
         mListener = null;
     }
