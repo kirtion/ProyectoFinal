@@ -43,33 +43,6 @@
             </LinearLayout>
             <!-- /TONY -->
 
-            <!-- RUBEN -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_margin="10dp">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:src="@drawable/aboutruben"
-                    android:layout_marginBottom="10dp"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/blanco"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:gravity="center_horizontal"
-                    android:layout_gravity="center_horizontal"
-                    android:text="@string/descripcion_ruben"/>
-
-            </LinearLayout>
-            <!-- /RUBEN -->
-
             <!-- ORIOL -->
             <LinearLayout
                 android:layout_width="match_parent"
@@ -123,6 +96,33 @@
 
             </LinearLayout>
             <!-- /CHINO -->
+
+            <!-- RUBEN -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/aboutruben"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blanco"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/descripcion_ruben"/>
+
+            </LinearLayout>
+            <!-- /RUBEN -->
 
         </LinearLayout>
 
