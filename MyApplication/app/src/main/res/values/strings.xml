@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">ClienteMovil</string>
+
+    <string name="title_section1">Remote</string>
+    <string name="title_section2">Robotalk</string>
+    <string name="title_section3">Encontrar a Claptrap</string>
+    <string name="title_section4">Ajustes</string>
+    <string name="title_section5">Acerca de</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="descripcion_tony">
+        Tony Ocaña Mellado.\n\n
+        Nacido en Gallifrey.\n
+        És el último de los señores del tiempo\n
+        sin embargo jamás está solo.\n
+        Siempre va acompañado de su leal compañera\n
+        además de su querida T.A.R.D.I.S\n\n
+    </string>
+    <string name="descripcion_ruben">
+        Rubén Ramos García.\n\n
+        The first of his name.\n
+        The unburnt.\n
+        King of Meereen.\n
+        King of the Andals, the Rhoynar and the First Men.\n
+        Protector of the realm.\n
+        Breaker of chains.\n\n
+    </string>
+    <string name="descripcion_chino">
+        Shuibai Xia.\n\n
+        另一位中国之子.\n
+        吉娃娃的表弟.\n
+        易性癖和同性恋冠军.\n
+        由鸠强奸作为一个孩子.\n
+        流亡中国以叛国罪的完整性.\n\n
+    </string>
+    <string name="descripcion_oriol">
+        Oriol Benitez.\n\n
+        Hijo de Arathorn.\n
+        Heredero de Isildur.\n
+        Señor de los Dunedain.\n
+        Heredero del trono de Gondor.\n\n
+    </string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

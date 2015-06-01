@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context="es.chinonymous.clientemovil.fragments.RoboTalkFragment">
+
+    <!-- Saludos -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/holaBtn"
+            android:layout_marginRight="5dp"
+            style="@style/robotalk_styles"
+            android:text="Hola"/>
+
+        <Button
+            android:id="@+id/buenosDiasBtn"
+            android:layout_marginRight="5dp"
+            style="@style/robotalk_styles"
+            android:text="Buenos dias"/>
+
+        <Button
+            android:id="@+id/queTalEstasBtn"
+            style="@style/robotalk_styles"
+            android:text="¿Qué tal estas?"/>
+
+    </LinearLayout>
+    <!-- /Saludos -->
+
+    <!-- Despedidas -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/adiosBtn"
+            android:layout_marginRight="5dp"
+            style="@style/robotalk_styles"
+            android:text="Adios"/>
+
+        <Button
+            android:id="@+id/queVayaBienBtn"
+            android:layout_marginRight="5dp"
+            style="@style/robotalk_styles"
+            android:text="Que vaya bien"/>
+
+        <Button
+            android:id="@+id/pazColegaBtn"
+            style="@style/robotalk_styles"
+            android:text="Paz colega"/>
+
+    </LinearLayout>
+    <!-- /Despedidas -->
+
+    <!-- Defensa -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/socorroBtn"
+            android:layout_marginRight="5dp"
+            style="@style/robotalk_styles"
+            android:text="Socorro socorro"/>
+
+        <Button
+            android:id="@+id/policiaBtn"
+            android:layout_marginRight="5dp"
+            style="@style/robotalk_styles"
+            android:text="Llamando a la policia"/>
+
+        <Button
+            android:id="@+id/primoBtn"
+            style="@style/robotalk_styles"
+            android:text="Mi primo es Iron Man"/>
+
+    </LinearLayout>
+    <!-- /Defensa -->
+
+    <!-- Texto propio -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/textToSpeechET"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".6"
+            android:layout_marginRight="5dp"
+            android:hint="Escribe aqui lo que quieras decir."/>
+
+        <Button
+            android:id="@+id/enviarTextoBtn"
+            style="@style/robotalk_styles"
+            android:background="@drawable/btn_blue"
+            android:text="Enviar"/>
+
+    </LinearLayout>
+    <!-- /Texto propio -->
+
+</LinearLayout>

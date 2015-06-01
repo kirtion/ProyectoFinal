@@ -1,0 +1,17 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="es.chinonymous.clientemovil.fragments.control.ControlTouchpadFragment">
+
+    <es.chinonymous.clientemovil.fragments.custom_view.TouchPadView
+        android:id="@+id/touchpad"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".8">
+
+    </es.chinonymous.clientemovil.fragments.custom_view.TouchPadView>
+
+</LinearLayout>

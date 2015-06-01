@@ -1,0 +1,162 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="es.chinonymous.clientemovil.fragments.AjustesFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".8"
+        android:layout_margin="@dimen/activity_horizontal_margin">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/categoria_ajustes_style"
+                android:text="SERVIDOR"
+                android:layout_marginTop="0dp"/>
+            <!-- IP -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="IP: "
+                    android:gravity="center_vertical"/>
+
+                <EditText
+                    android:id="@+id/ipET"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:hint="IP"
+                    android:inputType="phone"
+                    android:text="192.168.171.247"/>
+
+            </LinearLayout>
+            <!-- /IP -->
+
+            <!-- PUERTO -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="PUERTO: "
+                    android:gravity="center_vertical"/>
+
+                <EditText
+                    android:id="@+id/puertoET"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:hint="PUERTO"
+                    android:inputType="number"
+                    android:text="44444"/>
+
+            </LinearLayout>
+            <!-- /PUERTO -->
+
+            <!-- BOTON CONECTAR -->
+            <Button
+                android:id="@+id/conectarBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conectar/Desconectar"/>
+
+            <TextView
+                style="@style/categoria_ajustes_style"
+                android:text="CONTROL"/>
+
+            <!-- CONTROLES -->
+            <RadioGroup
+                android:id="@+id/controlesRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <RadioButton
+                    android:id="@+id/acelerometroRadio"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Acelerometro"
+                    android:gravity="center"/>
+                <RadioButton
+                    android:id="@+id/joystickRadio"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Touchpad"/>
+                <RadioButton
+                    android:id="@+id/crucetaRadio"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Cruceta"/>
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/calibrarAcelerometroBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calibrar Acelerometro"/>
+            <!-- /CONTROLES -->
+
+            <!-- MAPA -->
+            <TextView
+                style="@style/categoria_ajustes_style"
+                android:text="MAPA"/>
+
+            <RadioGroup
+                android:id="@+id/tipoMapaRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <RadioButton
+                    android:id="@+id/mapaNormalRadio"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Normal"
+                    android:gravity="center"/>
+                <RadioButton
+                    android:id="@+id/mapaHibridoRadio"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Hibrido"/>
+                <RadioButton
+                    android:id="@+id/mapaSateliteRadio"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Satelite"/>
+
+            </RadioGroup>
+            <!-- /MAPA -->
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
