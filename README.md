@@ -8,12 +8,10 @@ ConnectTest - Server of MyApplication & client of the NXT.
 
 LineaThor - LeJOS line follower.
 
-Controls:
-  - Tilt
-  - Pad
-  - Touchpad
-
-Text to speech funsies.
+  - Tilt & Pad & Touchpad controls.
+  - Text to speech funsies.
+  - Location
+  
 ![Robot](/ConnectTest/1.png?raw=true "Look how cute he is")
 ![UI](/ConnectTest/2.png?raw=true "Drawer options")
 ![Pad](/ConnectTest/3.png?raw=true "Pad example")
