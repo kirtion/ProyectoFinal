@@ -1,0 +1,80 @@
+  Chinonymous XIV
+ Android + LeJOS
+
+
+2A DAM Mañana  		Oriol Benítez	Tony Ocaña
+Pep Mendez / Ivan Canton / Iciar Aznar		Rubén Ramos	 Shuibai Xia
+
+Introducción 
+	
+	Descripción idea.
+	   Comunicación de un móvil android a otro móvil android para que este ultimo pueda controlar un robot de lego.
+	Objectivos-motivación personal. 
+	   Divertirnos programando el robot y conseguir aprender mucho sobre la programación java y android.
+ 	
+ 	Herramientas utilizadas 
+ 	  -Pack lego NXT educacional
+ 	  -Android Studio
+ 	  -Eclipse
+ 	  -Photoshop
+ 
+Desarrollo  
+Análisis
+ 	Nuestro robot se moverá mediante una conexión “bluetooh” con un móvil que estará controlado por otro móvil gracias a la conexión “wifi” , el móvil este dispondrá de controles completos para moverse , poder hacer que hable , o localizar donde esta el robot en todo momento.
+Diseño 
+	Interfaz cliente
+
+	Drawer
+
+	Acelerómetro
+
+	Cruceta
+
+	TouchPad
+	Robotalk
+	Find my robot
+
+Ajustes
+ About
+ Salir
+
+Interfaz servidor
+	inicio
+ Ajustes
+
+	Estado conectado
+
+Casos de usos
+ Usuario ejecuta la aplicación y puede elegir 5 opciones:
+Remote: que es el principal donde controla el robot, dentro del remote existe 3 tipos de control que puedes configurar desde ajustes.
+Acelerometro: mueve por las inclinaciones del móvil.
+Touchpad: mueves por donde tocas de la pandalla.
+Cruceta: mueve al presionar uno de los botones que hay en la pantalla.
+Robotalk: hara hablar el robot.
+Encontrar a Claptrp: busca donde esta el robot NXT.
+Ajustes: aquí cambias el tipo de control que quieres, conexión ip, puerto, calibrar el acelerómetro.
+Acerca de: acerca de los autores. 
+
+
+UML de los proyectos
+	Cliente
+
+
+
+	Servidor
+
+Pruebas
+Tuvimos que descargar muchos “plugins” para poder utilizar lejos en nuestros ordenadores.
+La conexión entre los dos móviles , las primeras conexiones no ocasionaron muchos problemas , pero una vez implementada la interfaz gráfica surgieron muchos , que al final se fueron solucionando.
+En la conexión con el móvil a NXT , no sabíamos el tipo de códigos que recibía el robot y tuvimos que aprender toda la parte de programación de lego.
+Elaborar la estructura del robot fue unos cuantos días , pero al final pudimos conseguir una estructura propia y innovadora.
+En la parta del seguidor de linea tuvimos bastantes problemas para conseguir que hiciera los giros correctos pero al final lo conseguimos
+Conclusión
+	De los objetivos principales del proyecto conseguimos hacer al final la conexión entre móviles y robot , el manejo con diferentes sistemas , funcionamiento automático del robot, pero el objetivo de tener “streaming” entre los móviles nos fue imposible. 
+ Futuras ampliaciones:  conseguir hacer “streaming”, mejorar la esctructura para poder implementar el tercer motor con la plataforma para que el “streaming”  pueda tener un control total del terreno.
+ 	
+Bibliografía
+	Tutorial oficial del NXT
+ 	Página oficial de Android developer
+ 	Github
+ Stackoverflow
