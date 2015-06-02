@@ -112,7 +112,8 @@ public class LineaThor {
 				suppress = false;
 			}
 		};
-		 Behavior pared = new Behavior() {
+
+		Behavior pared = new Behavior() {
 
 
 			public boolean takeControl() {
