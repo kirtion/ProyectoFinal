@@ -52,7 +52,7 @@ public class MainActivity extends Activity {
 			super.handleMessage(msg);
 		}
 	};
-
+	//onCreate
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
