@@ -7,3 +7,5 @@ Controls:
 
 Text to speech
 ![Robot](/ConnectTest/1.png?raw=true "Look how cute he is")
+
+Oriol Benitez / Tony ocaña / Shuibai Xia / Ruebn Ramos
