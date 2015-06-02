@@ -12,4 +12,6 @@ Text to speech funsies.
 ![UI](/ConnectTest/2.png?raw=true "Starting ui")
 ![Pad](/ConnectTest/3.png?raw=true "Control example")
 
+Codigo para seguidor de linea: https://github.com/shuibai/ProyectoFinal
+
 Oriol Benitez / Tony ocaña / Shuibai Xia / Ruben Ramos
