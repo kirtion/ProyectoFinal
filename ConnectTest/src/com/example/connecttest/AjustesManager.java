@@ -13,7 +13,7 @@ public class AjustesManager {
 	private AjustesManager (){
 		this.mac = "";
 	}
-
+	// Da la instancia de Ajustes Manager
 	public static AjustesManager getInstance(){
 		return ajustesManeger;
 	}
