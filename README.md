@@ -1,6 +1,6 @@
 # < NXT Control Remoto >
-This application lets you control Lego Mindstorms NXT robots from Android devices via Bluetooth.
-An android phone sends the commands to another phone, which sends them to the NXT.
+This application lets you control Lego Mindstorms NXT robots.
+An android phone sends the commands to another phone via WiFi, which sends them to the NXT via BlueTooth.
 
 Controls:
   - Tilt
