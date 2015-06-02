@@ -28,7 +28,6 @@ public class AcercaDeFragment extends Fragment {
     }
 
     public AcercaDeFragment() {
-        // Required empty public constructor
     }
 
     @Override
