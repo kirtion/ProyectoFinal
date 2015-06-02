@@ -1,3 +1,8 @@
 # ProyectoFinal
-Esta aplicación te permite controlar un Lego Mindstorm NXT desde dispositivos Android via Bluetooth.
+This application lets you control Lego Mindstorms NXT robots from Android devices via Bluetooth.
+Controls:
+  - Tilt
+  - Pad
+  - Touchpad
+Text to speech
 ![Robot](/ConnectTest/1.png?raw=true "Look how cute he is")
