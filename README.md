@@ -1,5 +1,6 @@
 # < NXT Control Remoto >
 This application lets you control Lego Mindstorms NXT robots from Android devices via Bluetooth.
+
 Controls:
   - Tilt
   - Pad
