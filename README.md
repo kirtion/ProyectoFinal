@@ -8,6 +8,7 @@ ConnectTest - Server of MyApplication & client of the NXT.
 
 LineaThor - LeJOS line follower.
 
+Some features:
   - Tilt & Pad & Touchpad controls.
   - Text to speech funsies.
   - Location
