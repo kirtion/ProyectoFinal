@@ -13,4 +13,4 @@ Text to speech funsies.
 ![Pad](/ConnectTest/3.png?raw=true "Control example")
 
 
-Oriol Benitez / Tony ocaña / Shuibai Xia / Ruben Ramos
+Oriol Benitez / Tony Ocaña / Shuibai Xia / Rubén Ramos
